@@ -1,0 +1,101 @@
+body {
+  color: black;
+  background-image: url("BG1.jpg");
+  margin: 0px;
+  border: gray;
+  border-style: dashed;
+
+}      
+main {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h1 { 
+ text-align: center; 
+ border: gray;
+ border-style: solid;
+ padding: 15px; 
+ margin:20px; 
+ box-align: center;
+ background-color: lightblue;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 0px;
+  margin-left:400px;
+  margin-right: 400px ;
+  overflow: hidden;
+  border: gray;
+  border-style: double;
+  box-align: center;
+
+}
+.navbar a{
+  color: black;
+  text-decoration: underline;
+  width: auto;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  text-emphasis: black;
+  font-family: sans-serif; Verdana, ariel, sans serif;
+}  
+.navbar a:hover {
+  background-color: lightpink;
+}
+.navbar li{
+  float: left;
+}
+}
+h3{
+  text-align: left;
+  text-transform: capitalize;
+  text-emphasis: black;
+  font-family: sans-serif;Verdana, ariel, sans serif;
+  text-decoration: underline; 
+  text-indent: 3em ;
+}
+p {
+  font-family: sans-serif; Verdana, ariel, san serif;
+  text-emphasis: black;
+}
+head {
+  text-align: center;
+  position: fixed;
+  left: 0px;
+  top: 0;
+  font-family: sans-serif;Verdana, ariel, san serif;
+  word-spacing: 5px;
+}
+
+footer {
+ text-align: center;
+ background-color: gray;
+ max-width: 80%; 
+ height: auto;
+ border: lightpink;
+ border-style: solid;
+ padding: 15px; 
+ margin-left:400px;
+ margin-right: 400px; 
+ box-align: center;
+}
+.image-continer{
+  margin-left: 50px;
+  margin-right: 50px;
+ width: 300px;
+ height: 225px;
+} 
+.image-continer img{
+ width: 50%;
+ height: 50%;
+}
+img {
+  display: block;
+  margin: auto;
+  box-shadow: lightpink;
+  border-radius: 50%;
+  border-color: gray;
+  border-style: double;
+}
